@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-448,-44",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port M00_AXI -pg 1 -lvl 2 -x 370 -y 180 -defaultsOSRD
+preplace port M01_AXI -pg 1 -lvl 2 -x 370 -y 200 -defaultsOSRD
+preplace port M02_AXI -pg 1 -lvl 2 -x 370 -y 220 -defaultsOSRD
+preplace port M03_AXI -pg 1 -lvl 2 -x 370 -y 240 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port S01_AXI -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port port-id_ACLK -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port port-id_ARESETN -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port port-id_M00_ACLK -pg 1 -lvl 0 -x 0 -y 0 -defaultsOSRD
+preplace port port-id_M00_ARESETN -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port port-id_M01_ACLK -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_M01_ARESETN -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port port-id_M02_ACLK -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_M02_ARESETN -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port port-id_M03_ACLK -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port port-id_M03_ARESETN -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port port-id_S00_ACLK -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_S01_ACLK -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port port-id_S01_ARESETN -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -x 200 -y 210 -defaultsOSRD
+preplace netloc ACLK_1 1 0 1 40J 100n
+preplace netloc ARESETN_1 1 0 1 50 120n
+preplace netloc S00_AXI_1 1 0 1 20J 60n
+preplace netloc S01_AXI_1 1 0 1 30J 80n
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 NJ 180
+preplace netloc axi_interconnect_0_M01_AXI 1 1 1 NJ 200
+preplace netloc axi_interconnect_0_M02_AXI 1 1 1 NJ 220
+preplace netloc axi_interconnect_0_M03_AXI 1 1 1 NJ 240
+levelinfo -pg 1 0 200 370
+pagesize -pg 1 -db -bbox -sgen -160 -20 480 420
+"
+}
+
