@@ -8,12 +8,12 @@ module hw_platform
   input                          pcie_refclk_n,
   input                          pcie_rstn,
 
-  input    [4*2-1:0]             qsfp_rxp,
-  input    [4*2-1:0]             qsfp_rxn,
-  output   [4*2-1:0]             qsfp_txp,
-  output   [4*2-1:0]             qsfp_txn,
-  input      [2-1:0]             qsfp_refclk_p,
-  input      [2-1:0]             qsfp_refclk_n,
+//  input    [4*2-1:0]             qsfp_rxp,
+//  input    [4*2-1:0]             qsfp_rxn,
+//  output   [4*2-1:0]             qsfp_txp,
+//  output   [4*2-1:0]             qsfp_txn,
+//  input      [2-1:0]             qsfp_refclk_p,
+//  input      [2-1:0]             qsfp_refclk_n,
 
   input                          c0_sys_clk_p,
   input                          c0_sys_clk_n,
